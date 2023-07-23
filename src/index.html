@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/dist/output.css" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/tw-elements/dist/css/tw-elements.min.css"
+    />
+    <link rel="stylesheet" href="/src/style/style.css" />
+    <link rel="stylesheet" href="/dist/output.css" />
+  </head>
+
+  <body class="bg-[#0E0E0E]">
+    <div class="fixed-nav lg:px-[80px] lg:mt-[20px] duration-[1s]">
+      <div class="bg-black">
+        <div class="flex justify-between items-center px-0 lg:px-10 py-6">
+          <div
+            class="flex items-center lgpl-[0px] pl-[30px] gap-2 pt-5 lg:pt-0"
+          >
+            <span
+              class="lg:w-[30px] lg:h-[30px] w-[20px] h-[20px] block rounded-full scale-[90%]"
+              style="
+                background: rgb(241, 241, 241);
+                background: linear-gradient(
+                  90deg,
+                  rgba(241, 241, 241, 1) 0%,
+                  rgba(241, 241, 241, 1) 35%,
+                  rgba(241, 241, 241, 1) 100%
+                );
+              "
+            ></span>
+            <a href="/src/index.html" class="lg:text-[25px] text-[21px] block"
+              >Kenawilson</a
+            >
+          </div>
+          <nav class="text-[18px]">
+            <ul class="flex gap-9 items-center lg:flex hidden">
+              <li
+                class="block hover:-translate-x-[10px] duration-[1s] ease-in-out"
+              >
+                <a href="/src/about.html">About</a>
+              </li>
+              <li class="block hover:-translate-x-[10px] duration-[1s]">
+                <a href="#contact" class="contact">Contact</a>
+              </li>
+              <li
+                class="px-4 py-2 border-[1px] border-[#cbdccb50] rounded-[2px] block hover:scale-[95%] duration-[1s] cursor-pointer"
+              >
+                <a
+                  href="/src/assets/img/IKENNA OKAFOR - RESUME .pdf"
+                  target="_blank"
+                  rel="noreferer"
+                  >Download My Cv</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div class="pr-[40px] lg:hidden block cursor-pointer hambugar">
+            <span class="w-[30px] h-[3px] bg-white block rounded-[4px]"></span>
+            <span
+              class="w-[30px] h-[3px] bg-white block mt-2 rounded-[4px]"
+            ></span>
+            <div class="overflow-hidden hider">
+              <span
+                class="w-[30px] h-[3px] bg-white block mt-2 rounded-[4px]"
+              ></span>
+            </div>
+          </div>
+        </div>
+        <div class="overflow-hidden lg:hidden block w-[90%] m-auto menu">
+          <div class="h-[0.2px] bg-[#C9C9C9]"></div>
+          <div class="mt-8">
+            <ul class="flex flex-col gap-9 text-[22px]">
+              <li class="hover:scale-[95%] duration-[1s] cursor-pointer">
+                <a href="/src/about.html">About</a>
+              </li>
+              <li class="hover:scale-[95%] duration-[1s] cursor-pointer">
+                <a href="#contact" class="contact">Contact</a>
+              </li>
+            </ul>
+            <a
+              href="./assets/img/IKENNA OKAFOR - RESUME .pdf"
+              target="_blank"
+              rel="noreferer"
+              class="block mt-6 bg-[#1F1F1F] p-4 text-center rounded-md hover:scale-[95%] duration-[1s]"
+              >Download My Cv</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper py-8 px-[25px]">
+      <div class="flex justify-center motion-safe:animate-fadeIn">
+        <div>
+          <h1
+            class="lg:text-[275px] text-[121px] w-[fit-content] m-auto relative header text-center mb-9 mt-[40px] lg:mb-0"
+          >
+            KENA
+            <div
+              class="absolute lg:top-[52px] top-[20px] lg:left-[350px] left-[157px] lg:h-[103px] h-[58px] lg:w-[103px] w-[58px] rounded-full pics"
+              style="
+                background-image: url(/src/assets/img/ik.jpg);
+                background-size: cover;
+                background-position: center;
+              "
+            ></div>
+          </h1>
+          <div class="-mt-[40px] text-center">
+            <h2 class="capitalize lg:text-[30px] text-[23px] text-center">
+              Designing experiences that delights and simplifies
+            </h2>
+            <p
+              class="lg:w-[505px] m-auto text-center lg:text-[17px] text-[14px] mt-3 leading-9"
+            >
+              Hi there, I’m Ikenna Okafor, a UI/UX designer who combines a
+              strong foundation in design principles with a user-centered
+              approach.
+            </p>
+            <div class="text-center">
+              <a
+                href="mailto:okaforikenna991@gmail.com"
+                target="_blank"
+                rel="noreferer"
+                class="block bg-[#0862CC] w-[fit-content] m-auto mt-5 px-[60px] py-2 rounded-[1px] hover:scale-[95%] duration-[1s]"
+                >Contact</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hidden-div">
+        <section
+          class="about flex-col lg:flex-row flex flex-col-reverse justify-center gap-7 lg:mt-[100px] mt-[60px] child"
+        >
+          <div class="lg:w-[45%] w-[100%] p-10 bg-[#161616] rounded-sm">
+            <h1 class="flex gap-3 items-center pb-6 text-[20px]">
+              <span class="block h-[6px] w-[6px] rounded-full bg-[#fff]"></span
+              >ABOUT ME
+            </h1>
+            <div class="leading-9">
+              I’m a highly motivated and creative UI/UX designer who enjoys
+              creating user-friendly and visually appealing digital products.
+              With 2 years of industry experience, I have a thorough
+              understanding of human-centered design principles as well as a
+              keen sense of design aesthetics.
+            </div>
+            <div class="mt-6 leading-9">
+              I've worked on a variety of projects, including websites, mobile
+              applications, and software, and I've worked closely with
+              cross-functional teams to ensure that my designs meet project
+              requirements while also considering user needs.
+            </div>
+          </div>
+          <div>
+            <div
+              class="h-[370px] lg:h-[100%] lg:w-[350px] rounded-md overflow-hidden mt-10 lg:mt-0"
+            >
+              <img src="/src/assets/img/ik2.jpg" class="w-[100%] lg:h-[100%]" />
+            </div>
+          </div>
+        </section>
+      </div>
+      <section class="lg:mt-[120px] mt-[60px] flex justify-center explore">
+        <div>
+          <h1
+            class="flex gap-2 items-center justify-center pb-6 text-[20px] text-center"
+          >
+            <span class="block h-[6px] w-[6px] rounded-full bg-[#fff]"></span
+            >EXPLORE MY WORKS
+            <span class="block h-[6px] w-[6px] rounded-full bg-[#fff]"></span>
+          </h1>
+          <div>
+            <div
+              class="grid lg:grid-cols-[repeat(3,340px)] grid-cols-[repeat(1,1fr)] gap-6"
+            >
+              <!--coinbase-->
+              <a
+                href="https://www.behance.net/gallery/171161375/Coincanvas"
+                class="bg-[#161616] px-3 pt-3 pb-7 rounded-sm box"
+                target="_blank"
+                rel="noreferer"
+              >
+                <div class="h-[200px] overflow-hidden">
+                  <img src="/src/assets/img/explore9.jpg" class="w-[100%]" />
+                </div>
+                <div class="px-3">
+                  <h3 class="py-3">CoinCanvas</h3>
+                  <div class="flex items-center">
+                    <p class="text-[14px] w-[90%] pr-4">
+                      User-centric crypto UX design, elevating accessibility and
+                      simplicity for seamless transactions."
+                    </p>
+                    <span
+                      class="h-[40px] w-[40px] bg-white flex justify-center items-center rounded-sm"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="2.3"
+                        stroke="#000"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </a>
+              <!--oasis-->
+              <a
+                href="https://www.behance.net/gallery/175334421/Oasis-of-Light-Chapel"
+                target="_blank"
+                rel="noreferer"
+                class="bg-[#161616] px-3 pt-3 pb-7 rounded-sm box"
+              >
+                <div class="h-[200px] overflow-hidden">
+                  <img src="/src/assets/img/explore10.jpg" class="w-[100%]" />
+                </div>
+                <div class="px-3">
+                  <h3 class="py-3">Oasis Of Light Chapel</h3>
+                  <div class="flex items-center">
+                    <p class="text-[14px] w-[90%] pr-4">
+                      Spiritually enriching UX design, fostering connection and
+                      serenity for an inspiring online congregation.
+                    </p>
+
+                    <span
+                      class="h-[40px] w-[40px] bg-white flex justify-center items-center rounded-sm"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="2.3"
+                        stroke="#000"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </a>
+              <a
+                href="https://www.behance.net/gallery/171336231/Gajet-Sidebar-menu"
+                target="_blank"
+                rel="noreferer"
+                class="bg-[#161616] px-3 pt-3 pb-7 rounded-sm box"
+              >
+                <div class="h-[200px] overflow-hidden">
+                  <img src="/src/assets/img/explore2.jpg" class="w-[100%]" />
+                </div>
+                <div class="px-3">
+                  <h3 class="py-3">Gaget Sidebar</h3>
+                  <div class="flex items-center">
+                    <p class="text-[14px] w-[90%] pr-4">
+                      Efficient sidebar navigation, simplifying data access for
+                      an intuitive and productive dashboard.
+                    </p>
+                    <span
+                      class="h-[40px] w-[40px] bg-white flex justify-center items-center rounded-sm"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="2.3"
+                        stroke="#000"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </a>
+              <a
+                href="https://www.behance.net/gallery/171161685/Jobfynda"
+                target="_blank"
+                rel="noreferer"
+                class="bg-[#161616] px-3 pt-3 pb-7 rounded-sm box"
+              >
+                <div class="h-[200px] overflow-hidden">
+                  <img src="/src/assets/img/explore3.jpg" class="w-[100%]" />
+                </div>
+                <div class="px-3">
+                  <h3 class="py-3">JobFynda dashboard</h3>
+                  <div class="flex items-center">
+                    <p class="text-[14px] w-[90%] pr-4">
+                      Providing job seekers with an easy-to-use dashboard to
+                      locate the ideal career opportunities.
+                    </p>
+                    <span
+                      class="h-[40px] w-[40px] bg-white flex justify-center items-center rounded-sm"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="2.3"
+                        stroke="#000"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </a>
+              <a
+                href="https://www.behance.net/gallery/175192567/HandyHub-%28Home-Service-Case-Study%29"
+                target="_blank"
+                rel="noreferer"
+                class="bg-[#161616] px-3 pt-3 pb-7 rounded-sm box"
+              >
+                <div class="h-[200px] overflow-hidden">
+                  <img src="/src/assets/img/explore7.jpg" class="w-[100%]" />
+                </div>
+                <div class="px-3">
+                  <h3 class="py-3">HandyHub (Ux Case study)</h3>
+                  <div class="flex items-center">
+                    <p class="text-[14px] w-[90%] pr-4">
+                      Streamlined UX for hassle-free home services, connecting
+                      users with trusted professionals effortlessly.
+                    </p>
+                    <span
+                      class="h-[40px] w-[40px] bg-white flex justify-center items-center rounded-sm"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="2.3"
+                        stroke="#000"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </a>
+              <a
+                href="https://www.behance.net/gallery/171113117/Qubix"
+                target="_blank"
+                rel="noreferer"
+                class="bg-[#161616] px-3 pt-3 pb-7 rounded-sm box"
+              >
+                <div class="h-[200px] overflow-hidden">
+                  <img src="/src/assets/img/explore8.jpg" class="w-[100%]" />
+                </div>
+                <div class="px-3">
+                  <h3 class="py-3">Qubix Dashboard</h3>
+                  <div class="flex items-center">
+                    <p class="text-[14px] w-[90%] pr-4">
+                      Empowering financial control, effortlessly tracking
+                      expenses; user-friendly dashboard design.
+                    </p>
+                    <span
+                      class="h-[40px] w-[40px] bg-white flex justify-center items-center rounded-sm"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="2.3"
+                        stroke="#000"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </a>
+              <a
+                href="https://www.behance.net/gallery/166179685/Hostelle-Real-Estate-Case-Study"
+                target="_blank"
+                rel="noreferer"
+                class="bg-[#161616] px-3 pt-3 pb-7 rounded-sm box"
+              >
+                <div class="h-[200px] overflow-hidden">
+                  <img src="/src/assets/img/explore6.jpg" class="w-[100%]" />
+                </div>
+                <div class="px-3">
+                  <h3 class="py-3">Hostelle (Ux Case study)</h3>
+                  <div class="flex items-center">
+                    <p class="text-[14px] w-[90%] pr-4">
+                      Finding student hostels and lodges effortlessly;
+                      user-friendly real estate app."
+                    </p>
+                    <span
+                      class="h-[40px] w-[40px] bg-white flex justify-center items-center rounded-sm"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="2.3"
+                        stroke="#000"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </a>
+              <a
+                href="https://www.behance.net/gallery/171103387/GAJET"
+                target="_blank"
+                rel="noreferer"
+                class="bg-[#161616] px-3 pt-3 pb-7 rounded-sm box"
+              >
+                <div class="h-[200px] overflow-hidden">
+                  <img src="/src/assets/img/explore5.jpg" class="w-[100%]" />
+                </div>
+                <div class="px-3">
+                  <h3 class="py-3">Gaget Dashboard</h3>
+                  <div class="flex items-center">
+                    <p class="text-[14px] w-[90%] pr-4">
+                      Managing gadget finances easily, track income and
+                      expenses.
+                    </p>
+                    <span
+                      class="h-[40px] w-[40px] bg-white flex justify-center items-center rounded-sm"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="2.3"
+                        stroke="#000"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </a>
+              <a
+                href="https://www.behance.net/gallery/174649717/Exploration"
+                target="_blank"
+                rel="noreferer"
+                class="bg-[#161616] px-3 pt-3 pb-7 rounded-sm box"
+              >
+                <div class="h-[200px] overflow-hidden">
+                  <img src="/src/assets/img/explore4.jpg" class="w-[100%]" />
+                </div>
+                <div class="px-3">
+                  <h3 class="py-3">Design Exploration</h3>
+                  <div class="flex items-center">
+                    <p class="text-[14px] w-[90%] pr-4">
+                      Discovering top home services providers effortlessly and
+                      without the hassle.
+                    </p>
+                    <span
+                      class="h-[40px] w-[40px] bg-white flex justify-center items-center rounded-sm"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="2.3"
+                        stroke="#000"
+                        class="w-4 h-4"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </a>
+              <!--End of Explore-->
+            </div>
+            <div class="text-center pt-6">
+              <a
+                href="https://www.behance.net/ikennaokafor"
+                target="_blank"
+                rel="noreferer"
+                class="block bg-[#0862CC] w-[fit-content] m-auto mt-5 px-[60px] py-2 rounded-[1px] flex items-center gap-2 hover:scale-[90%] duration-[0.7s]"
+                >More Projects
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.8"
+                  stroke="currentColor"
+                  class="w-4 h-4"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="expertise flex justify-center lg:mt-[100px] mt-[60px] lg:w-[70%] m-auto lg:px-[80px] px-[20px] py-[60px] rounded-lg"
+      >
+        <div>
+          <h1
+            class="flex gap-2 items-center justify-center pb-6 text-[20px] text-center"
+          >
+            <span class="block h-[6px] w-[6px] rounded-full bg-[#fff]"></span>
+            MY EXPERTISE
+            <span class="block h-[6px] w-[6px] rounded-full bg-[#fff]"></span>
+          </h1>
+          <div
+            class="grid lg:grid-cols-[repeat(2,50%)] grid-cols-[repeat(1,1fr)] gap-8 justify-center"
+          >
+            <div class="bg-[#0E0E0E] p-6 rounded-md box">
+              <h1
+                class="flex lg:flex-row flex-col gap-3 items-center text-center pb-6 text-[25px]"
+              >
+                <span
+                  class="block h-[40px] w-[40px] rounded-full bg-[#FFDBDB] flex items-center justify-center lg:text-left text-center mb-4 lg:mb-0"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.6"
+                    stroke="red"
+                    class="w-5 h-5"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+                    ></path>
+                  </svg>
+                </span>
+
+                User Research
+              </h1>
+              <p class="leading-8 lg:text-left text-center">
+                Dedicated UX researcher with a passion for understanding users,
+                optimizing experiences, and driving product innovation for
+                success."
+              </p>
+            </div>
+            <div class="bg-[#0E0E0E] p-6 rounded-md box">
+              <h1
+                class="flex lg:flex-row flex-col gap-3 items-center pb-6 text-[25px] lg:text-left text-center leading-8"
+              >
+                <span
+                  class="block h-[40px] w-[40px] rounded-full bg-[#E4FFDB] flex items-center justify-center lg:mb-0 mb-3"
+                >
+                  <img src="/src/assets/img/angle.svg" class="w-5 h-5" />
+                </span>
+
+                Visual Interface Design
+              </h1>
+              <p class="leading-8 lg:text-left text-center">
+                Experienced visual interface designer, crafting captivating and
+                user-centric designs that elevate brands and create memorable
+                experiences.
+              </p>
+            </div>
+            <div class="bg-[#0E0E0E] p-6 rounded-md box">
+              <h1
+                class="flex flex-col lg:flex-row gap-3 items-center text-center pb-6 text-[25px] leading-8"
+              >
+                <span
+                  class="block h-[40px] w-[40px] rounded-full bg-[#DBEEFF] flex items-center justify-center mb-4 lg:mb-0"
+                >
+                  <img src="/src/assets/img/play.png" class="w-5 h-5" />
+                </span>
+
+                Motion & Animation
+              </h1>
+              <p class="leading-8 lg:text-left text-center">
+                Skilled motion animator with a flair for bringing designs to
+                life through captivating and dynamic animations that engage
+                audiences.
+              </p>
+            </div>
+            <div class="bg-[#0E0E0E] p-6 rounded-md box">
+              <h1
+                class="flex lg:flex-row flex-col gap-3 items-center text-center pb-6 text-[25px]"
+              >
+                <span
+                  class="block h-[40px] w-[40px] rounded-full bg-[#FFECDB] flex items-center justify-center mb-4 lg:mb-0"
+                >
+                  <img src="/src/assets/img/profile.png" class="w-5 h-5" />
+                </span>
+
+                Brand Identity
+              </h1>
+              <p class="leading-8 lg:text-left text-center">
+                Creative brand identity designer, crafting distinctive visual
+                identities that resonate with audiences and elevate brands to
+                new heights.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="testimonial bg-[#161616] lg:w-[600px] m-auto mt-[100px] mt-[60px] p-10 text-center"
+      >
+        <h1
+          class="flex gap-2 items-center justify-center pb-3 text-[20px] text-center text-[#0862CC]"
+        >
+          TESTIMONIALS
+        </h1>
+        <h1 class="text-[25px]">From Our Clients.</h1>
+        <div
+          id="carouselExampleCrossfade"
+          class="relative"
+          data-te-carousel-init
+          data-te-carousel-slide
+        >
+          <!--Carousel items-->
+          <div
+            class="relative w-full overflow-hidden after:clear-both after:block after:content-['']"
+          >
+            <!--First item-->
+            <div
+              class="relative float-left -mr-[100%] w-full !transform-none opacity-0 transition-opacity duration-[600ms] ease-in-out motion-reduce:transition-none"
+              data-te-carousel-fade
+              data-te-carousel-item
+              data-te-carousel-active
+            >
+              <div
+                class="block lg:w-[150px] w-[100px] lg:h-[150px] h-[100px] rounded-full m-auto mt-6"
+                style="
+                  background-image: url(/src/assets/img/amara2.jpg);
+                  background-size: cover;
+                  background-position: center;
+                "
+              ></div>
+              <div>
+                <div class="lg:w-[450px] m-auto">
+                  <p class="leading-8 text-[#ACB4C3] mt-6">
+                    Ikenna Okafor is an aesthetic UI/UX designer, crafting
+                    captivating and seamless experiences with a user-centered
+                    approach. Exceptional talent and professionalism.
+                  </p>
+                  <h2 class="mt-6 text-[20px] mb-4">Amarachi Joy</h2>
+                </div>
+              </div>
+            </div>
+            <!--Second item-->
+            <div
+              class="relative float-left -mr-[100%] hidden w-full !transform-none opacity-0 transition-opacity duration-[600ms] ease-in-out motion-reduce:transition-none"
+              data-te-carousel-fade
+              data-te-carousel-item
+            >
+              <div
+                class="block lg:w-[150px] w-[100px] lg:h-[150px] h-[100px] rounded-full m-auto mt-6"
+                style="
+                  background-image: url(/src/assets/img/nelson.jpg);
+                  background-size: cover;
+                  background-position: center;
+                "
+              ></div>
+              <div>
+                <div class="lg:w-[450px] m-auto">
+                  <p class="leading-8 text-[#ACB4C3] mt-6">
+                    Ikenna Okafor is a brilliant UI/UX designer with an eye for
+                    captivating visuals and seamless user experiences.
+                  </p>
+                  <h2 class="mt-6 text-[20px] mb-4">Nelson Opara</h2>
+                </div>
+              </div>
+            </div>
+            <!--Third item-->
+            <div
+              class="relative float-left -mr-[100%] hidden w-full !transform-none opacity-0 transition-opacity duration-[600ms] ease-in-out motion-reduce:transition-none js-show-on-scroll"
+              data-te-carousel-fade
+              data-te-carousel-item
+            >
+              <div
+                class="block lg:w-[150px] w-[100px] lg:h-[150px] h-[100px] rounded-full m-auto mt-6"
+                style="
+                  background-image: url(/src/assets/img/edit.jpg);
+                  background-size: cover;
+                  background-position: center;
+                "
+              ></div>
+              <div class="lg:w-[450px] m-auto">
+                <p class="leading-8 text-[#ACB4C3] mt-6">
+                  Ikenna Okafor is an exceptional UI/UX designer, creates
+                  captivating interfaces, and delivers seamless user
+                  experiences. A true professional and collaborator.
+                </p>
+                <h2 class="mt-6 text-[20px] mb-4">Perfection Chizuruoke</h2>
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-center gap-5 items-center mt-6">
+            <!--Carousel controls - prev item-->
+            <button
+              class="bg-white bottom-0 left-0 top-0 z-[1] flex w-[40px] h-[40px] rounded-full items-center justify-center border-0 bg-none p-0 text-center text-white transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+              type="button"
+              data-te-target="#carouselExampleCrossfade"
+              data-te-slide="prev"
+            >
+              <img src="./assets/img/left.png" class="w-5 h-5" />
+              <span
+                class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+                >Previous</span
+              >
+            </button>
+            <!--Carousel controls - next item-->
+            <button
+              class="!bg-[#0862CC] right-0 top-0 z-[1] flex w-[40px] h-[40px] rounded-full items-center justify-center border-0 bg-none p-0 text-center text-white transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+              type="button"
+              data-te-target="#carouselExampleCrossfade"
+              data-te-slide="next"
+            >
+              <img src="./assets/img/right.png" class="w-5 h-5" />
+              <span
+                class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+                >Next</span
+              >
+            </button>
+          </div>
+        </div>
+      </section>
+      <section
+        id="contact"
+        class="lg:w-[60%] lg:min-h-[300px] m-auto p-10 mt-[100px] mt-[60px] rounded-[10px] text-center js-show-on-scroll flex justify-center flex-col items-center"
+        style="
+          background-image: url(/src/assets/img/Frame\ 612.jpg);
+          background-position: center;
+          background-size: cover;
+        "
+      >
+        <h1 class="lg:text-[40px] text-[30px] leading-[40px]">
+          Let’s work together! Reach out to me @
+        </h1>
+        <div class="mt-5">
+          <a
+            href="mailto:okaforikenna991@gmail.com"
+            target="_blank"
+            rel="noreferer"
+          >
+            okaforikenna991@gmail.com</a
+          >
+          <div class="flex items-center gap-5 justify-center mt-5">
+            <a
+              href="https://www.behance.net/ikennaokafor"
+              target="_blank"
+              rel="noreferer"
+            >
+              <img
+                src="/src/assets/img/behance.png"
+                alt="behance"
+                class="w-[30px]"
+              />
+            </a>
+            <a
+              href=" https://instagram.com/kena.ux?igshid=OGQ5ZDc2ODk2ZA=="
+              target="_blank"
+              rel="noreferer"
+            >
+              <img
+                src="/src/assets/img/insta.png"
+                alt="instagram"
+                class="w-[30px]"
+              />
+            </a>
+            <a
+              href="https://dribbble.com/ikaywilson"
+              target="_blank"
+              rel="noreferer"
+            >
+              <img
+                src="/src/assets/img/Group 5.png"
+                alt="dribbble"
+                class="w-[30px]"
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ikenna-okafor-5a268a248"
+              target="_blank"
+              rel="noreferer"
+            >
+              <img
+                src="/src/assets/img/Group.png"
+                alt="linkedin"
+                class="w-[30px]"
+              />
+            </a>
+            <a
+              href="https://twitter.com/ikaywilson"
+              target="_blank"
+              rel="noreferer"
+            >
+              <img
+                src="/src/assets/img/twitter.jpg"
+                alt="twitter"
+                class="w-[30px]"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="text-center lg:mt-[70px] mt-[50px] bg-[#000] p-6">
+      &copy; Copyright 2022. All Right Reserved
+    </footer>
+    <div
+      class="bg-[#161616] fixed bottom-[90px] right-[30px] w-[45px] h-[45px] rounded-full lg:flex hidden items-center justify-center duration-[0.7s] cursor-pointer scrollToTopBtn"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="w-6 h-6"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M8.25 6.75L12 3m0 0l3.75 3.75M12 3v18"
+        />
+      </svg>
+    </div>
+    <script src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+    <script src="/javascript/main.js" type="module"></script>
+  </body>
+</html>

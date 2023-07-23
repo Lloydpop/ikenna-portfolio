@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap");
+body {
+  font-family: "Josefin Sans", sans-serif;
+  color: #fff;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+html {
+  scroll-behavior: smooth;
+  transition: 0.6s;
+}
+.header {
+  font-weight: 700;
+}
+.center {
+  place-items: center;
+}
+.fixed-nav {
+  transform: translateY(-200%);
+}
+.fixed-nav.hide {
+  transform: translateY(0);
+}
+.fixed-nav {
+  transition: 2s ease;
+}
+.fixed-nav.active {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  z-index: 10000;
+
+  margin: auto;
+}
+.sliding-text {
+  display: inline-block;
+  white-space: nowrap;
+  animation: slideText 9s linear infinite;
+  transform: translateX(100%);
+}
+
+.sliding-text {
+  padding-right: 200px; /* Adjust the spacing between text copies */
+}
+.sliding-text-container {
+  overflow: hidden;
+  position: relative;
+  width: 700px;
+  margin: auto;
+}
+.explore .box {
+  transform: scale(0);
+  transition: 1.5s ease;
+  cursor: pointer;
+}
+.explore.visible .box img {
+  transition: 0.8s;
+}
+.explore.visible .box:hover img {
+  transform: translateY(-40px);
+}
+.explore.visible .box span {
+  transition: 0.8s;
+}
+.explore.visible .box:hover span {
+  transform: scale(95%);
+}
+.explore .box:nth-child(1) {
+  transition-delay: 0.1s;
+}
+.explore .box:nth-child(2) {
+  transition-delay: 0.2s;
+}
+.explore .box:nth-child(3) {
+  transition-delay: 0.3s;
+}
+.explore .box:nth-child(4) {
+  transition-delay: 0.4s;
+}
+.explore .box:nth-child(5) {
+  transition-delay: 0.5s;
+}
+.explore .box:nth-child(6) {
+  transition-delay: 0.6s;
+}
+.explore .box:nth-child(7) {
+  transition-delay: 0.7s;
+}
+.explore .box:nth-child(8) {
+  transition-delay: 0.8s;
+}
+.explore .box:nth-child(9) {
+  transition-delay: 0.9s;
+}
+.explore.visible .box {
+  transform: scale(100%);
+}
+.expertise {
+  background-color: transparent;
+  transition: 1s ease;
+}
+.expertise.active {
+  background-color: #0862cc;
+}
+.expertise .box {
+  transform: scale(0);
+  transition: 1.5s ease;
+}
+.expertise.active .box {
+  transform: scale(100%);
+}
+
+@keyframes slideText {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%); /* Adjust to control the sliding speed */
+  }
+}
+.menu {
+  height: 0;
+  transition: 0.7s ease-in-out;
+}
+.menu.active {
+  height: 240px;
+}
+
+.hambugar.active span:nth-child(1) {
+  transform: rotate(43deg) translateY(7px);
+}
+.hambugar span:nth-child(1) {
+  transition: 0.4s;
+}
+.hambugar span:nth-child(2) {
+  transition: 0.4s;
+}
+.hambugar span:nth-child(3) {
+  transition: 0.6s ease-in-out;
+}
+.hambugar.active span:nth-child(2) {
+  transform: rotate(-40deg) translateY(-8px);
+}
+.hambugar.active .hider {
+  opacity: 0;
+  transform: translateY(100%);
+}
+.hidden-div .child {
+  transform: translateY(100%) scale(0);
+  transition: 1.5s linear;
+  opacity: 0;
+}
+.hidden-div.visible .child {
+  transform: translateY(0) scale(1);
+  opacity: 1;
+}
+.pics {
+  transform: scale(0);
+  transition: 1s ease;
+}
+.pics.visible {
+  transform: scale(1);
+}
+@media screen and (max-width: 768px) {
+  .fixed-nav.active {
+    position: fixed;
+    transition: 0s;
+    width: 100%;
+  }
+  .sliding-text-container {
+    width: 90%;
+  }
+}
+
+/* Media query for small screens */
+@media screen and (max-width: 480px) {
+  .fixed-nav.active {
+    position: fixed;
+    width: 100%;
+    transition: 0s;
+  }
+  .sliding-text-container {
+    width: 90%;
+  }
+}
