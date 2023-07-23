@@ -96,7 +96,7 @@ html {
   transition-delay: 0.9s;
 }
 .explore.visible .box {
-  transform: scale(100%);
+  transform: scale(1);
 }
 .expertise {
   background-color: transparent;
@@ -114,7 +114,7 @@ html {
   transition: 1.5s ease;
 }
 .expertise.active .box {
-  transform: scale(100%);
+  transform: scale(1);
 }
 
 @keyframes slideText {
